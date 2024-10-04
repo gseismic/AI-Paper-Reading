@@ -10,6 +10,7 @@ Papers on AI
 [Optimal Control and Planning](https://rail.eecs.berkeley.edu/deeprlcourse/deeprlcourse/static/slides/lec-10.pdf)
 [Deep RL Bootcamp](https://sites.google.com/view/deep-rl-bootcamp/lectures)
 
+Notes:
 ```
 Core Lecture 1 Intro to MDPs and Exact Solution Methods -- Pieter Abbeel  (video | slides)
 Core Lecture 2 Sample-based Approximations and Fitted Learning -- Rocky Duan  (video | slides)
@@ -32,18 +33,32 @@ TAs Research Overviews (video | slides)
 https://zhuanlan.zhihu.com/p/139911579
 http://luthuli.cs.uiuc.edu/~daf/courses/games/AIpapers/ng99policy.pdf
 
+### 分布式强化学习
+[blog&paper](https://proceedings.mlr.press/v80/espeholt18a.html)
+[V-trace @zh](https://zhuanlan.zhihu.com/p/58226117)
+[强化学习 IMPALA算法blog](https://www.cnblogs.com/pkgunboat/p/14606260.html)
+
 ### GAE
-[HIGH-DIMENSIONAL CONTINUOUS CONTROL USING GENERALIZED ADVANTAGE ESTIMATION](https://arxiv.org/pdf/1506.02438)
 [Generalized Advantage Estimator](https://github.com/yandexdataschool/Practical_RL/blob/master/week09_policy_II/ppo.ipynb)
+[HIGH-DIMENSIONAL CONTINUOUS CONTROL USING GENERALIZED ADVANTAGE ESTIMATION](https://arxiv.org/pdf/1506.02438)
 [Generalized Advantage Estimator知乎](https://zhuanlan.zhihu.com/p/139097326)
+[PPO 之 GAE 篇](https://zhuanlan.zhihu.com/p/577598804)
 
 ### Variance
 [Variance Reduction in Policy gradient methods](https://www.reddit.com/r/reinforcementlearning/comments/kimtbn/variance_reduction_in_policy_gradient_methods/?utm_source=share&utm_medium=ios_app&utm_name=iossmf)
 [Beyond variance reduction: Understanding the true impact of baselines on policy optimization](https://arxiv.org/abs/2008.13773)
 
 ### PPO
+[The 37 Implementation Details of Proximal Policy Optimization](https://github.com/vwxyzjn/ppo-implementation-details?tab=readme-ov-file)
+    - [blog](https://iclr-blog-track.github.io/2022/03/25/ppo-implementation-details/)
 [RL — Proximal Policy Optimization (PPO) Explained](https://jonathan-hui.medium.com/rl-proximal-policy-optimization-ppo-explained-77f014ec3f12)
 [Part 1 of 3 — Proximal Policy Optimization Implementation: 11 Core Implementation Details](https://www.youtube.com/watch?v=MEt6rrxH8W4)
+[spinningup.openai](https://spinningup.openai.com/en/latest/algorithms/ppo.html#id3)
+[What Matters In On-Policy Reinforcement Learning? A Large-Scale Empirical Study](https://arxiv.org/abs/2006.05990)
+    - [blog](https://vitalab.github.io/article/2020/07/02/What_Matters_in_RL.html)
+    - [paper](https://arxiv.org/abs/2006.05990)
+[Robust Policy Optimization (RPO)](https://arxiv.org/pdf/2212.07536)
+    - [detail](https://docs.cleanrl.dev/rl-algorithms/rpo/#implemented-variants)
 
 A quote from the PPO paper:
 
@@ -86,3 +101,9 @@ PPO adds a soft constraint that can be optimized by a first-order optimizer. We 
 
 ## ClearML
 https://clear.ml/docs/latest/docs/
+
+## NN
+[Some recent activation functions mimicking ReLU](https://vitalab.github.io/blog/2024/08/20/new_activation_functions.html)
+
+# Uncertainty Qualification
+[Uncertainty Estimation Review](https://vitalab.github.io/blog/2021/06/17/uncertainty.html)
