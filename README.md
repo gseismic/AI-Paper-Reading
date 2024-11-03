@@ -1,6 +1,11 @@
 # AI-Paper-Reading
 Papers on AI
 
+
+## Transformer
+[Linear Relationships in the Transformer’s Positional Encoding](https://blog.timodenk.com/linear-relationships-in-the-transformers-positional-encoding/) 
+[Transformer Architecture: The Positional Encoding](https://kazemnejad.com/blog/transformer_architecture_positional_encoding/)
+
 ## 强化学习 & RL
 [Practical_RL](https://github.com/yandexdataschool/Practical_RL/blob/master/week10_planning/seminar_MCTS.ipynb)
 [Berkeley Policy Gradients](https://rail.eecs.berkeley.edu/deeprlcourse/static/slides/lec-5.pdf)
@@ -107,3 +112,7 @@ https://clear.ml/docs/latest/docs/
 
 # Uncertainty Qualification
 [Uncertainty Estimation Review](https://vitalab.github.io/blog/2021/06/17/uncertainty.html)
+
+## Lib
+[LiteLLM](https://docs.litellm.ai/)
+[https://aider.chat/docs/repomap.html](https://aider.chat/docs/repomap.html)
